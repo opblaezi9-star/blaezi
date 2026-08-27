@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "username": "admin",
+      "passwordHash": "$2b$10$bfDwi2/rlutgLQG6kxk1zuF.DemT5dGXn963a40zkkSGGVZAsMGzq",
+      "fullName": "Chief Hospital Administrator",
+      "email": "admin@neepco-health.gov.in",
+      "role": "Admin",
+      "phone": "+91 364 259 0001",
+      "isActive": true,
+      "createdAt": "2026-08-27T08:00:00.000Z",
+      "updatedAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "usr-pharm-01",
+      "username": "pharmacist",
+      "passwordHash": "$2b$10$bfDwi2/rlutgLQG6kxk1zuqWDBNwDNSxFb.6jlos32tdjSSZfji1y",
+      "fullName": "Chief Clinical Pharmacist",
+      "email": "pharmacy@neepco-health.gov.in",
+      "role": "Pharmacist",
+      "phone": "+91 364 259 0002",
+      "isActive": true,
+      "createdAt": "2026-08-27T08:00:00.000Z",
+      "updatedAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "usr-lab-01",
+      "username": "laboratorian",
+      "passwordHash": "$2b$10$bfDwi2/rlutgLQG6kxk1zuvJMjwESQDlPQF5N67JU/6WrUhNyf1CG",
+      "fullName": "Diagnostic Lab Technologist",
+      "email": "diagnostics@neepco-health.gov.in",
+      "role": "Laboratorian",
+      "phone": "+91 364 259 0003",
+      "isActive": true,
+      "createdAt": "2026-08-27T08:00:00.000Z",
+      "updatedAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "usr-doc-01",
+      "username": "doctor",
+      "passwordHash": "$2b$10$bfDwi2/rlutgLQG6kxk1zuZP22CWHRzYGs8Bi5E6x9ybShAhfl97m",
+      "fullName": "Medical Officer (OPD)",
+      "email": "medical.officer@neepco-health.gov.in",
+      "role": "Doctor",
+      "phone": "+91 364 259 0004",
+      "isActive": true,
+      "createdAt": "2026-08-27T08:00:00.000Z",
+      "updatedAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "usr-nurse-01",
+      "username": "nurse",
+      "passwordHash": "$2b$10$bfDwi2/rlutgLQG6kxk1zuF.DemT5dGXn963a40zkkSGGVZAsMGzq",
+      "fullName": "Clinical Staff Nurse",
+      "email": "nursing@neepco-health.gov.in",
+      "role": "Nurse",
+      "phone": "+91 364 259 0005",
+      "isActive": true,
+      "createdAt": "2026-08-27T08:00:00.000Z",
+      "updatedAt": "2026-08-27T08:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-01",
+      "name": "Tablets",
+      "code": "TAB",
+      "description": "Solid dosage oral medications",
+      "status": "Active",
+      "type": "Medicine",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-02",
+      "name": "Capsules",
+      "code": "CAP",
+      "description": "Encapsulated oral powder or pellets",
+      "status": "Active",
+      "type": "Medicine",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-03",
+      "name": "Syrups & Liquids",
+      "code": "SYR",
+      "description": "Liquid formulations and oral suspensions",
+      "status": "Active",
+      "type": "Medicine",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-04",
+      "name": "Injections & IV",
+      "code": "INJ",
+      "description": "Sterile injectable ampoules and infusions",
+      "status": "Active",
+      "type": "Medicine",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-05",
+      "name": "Antibiotics",
+      "code": "ANT",
+      "description": "Broad and narrow spectrum antibacterial agents",
+      "status": "Active",
+      "type": "Medicine",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-06",
+      "name": "Painkillers & NSAIDs",
+      "code": "PAIN",
+      "description": "Analgesics, anti-pyretics and anti-inflammatory",
+      "status": "Active",
+      "type": "Medicine",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-07",
+      "name": "Cardiovascular",
+      "code": "CARD",
+      "description": "Hypertension and cardiac care medications",
+      "status": "Active",
+      "type": "Medicine",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-08",
+      "name": "Respiratory",
+      "code": "RESP",
+      "description": "Inhalers, bronchodilators, antihistamines",
+      "status": "Active",
+      "type": "Medicine",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-09",
+      "name": "Hematology Reagents",
+      "code": "HEM",
+      "description": "Diluents, lyse, and stain solutions for blood cell analyzers",
+      "status": "Active",
+      "type": "Reagent",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-10",
+      "name": "Biochemistry Diagnostics",
+      "code": "BIO",
+      "description": "Enzymatic substrate reagents for clinical chemistry automated analyzers",
+      "status": "Active",
+      "type": "Reagent",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-11",
+      "name": "Serology & Rapid Tests",
+      "code": "SERO",
+      "description": "Immunochromatographic rapid diagnostic cards and infectious disease kits",
+      "status": "Active",
+      "type": "Reagent",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-12",
+      "name": "Blood Bank & Typing",
+      "code": "BLD",
+      "description": "Monoclonal blood grouping typing sera (Anti-A, B, D) and crossmatching",
+      "status": "Active",
+      "type": "Reagent",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-13",
+      "name": "Microbiology & Stains",
+      "code": "MICR",
+      "description": "Differential bacterial staining kits and culture media diagnostics",
+      "status": "Active",
+      "type": "Reagent",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    },
+    {
+      "id": "cat-14",
+      "name": "Urinalysis & Pathology",
+      "code": "URI",
+      "description": "Urine analysis diagnostic test strips and pathology consumables",
+      "status": "Active",
+      "type": "Reagent",
+      "createdAt": "2026-08-27T08:00:00.000Z"
+    }
+  ],
+  "medicines": [],
+  "batches": [],
+  "suppliers": [],
+  "patients": [],
+  "purchaseOrders": [],
+  "purchaseOrderItems": [],
+  "dispensings": [],
+  "dispensingDetails": [],
+  "returns": [],
+  "returnDetails": [],
+  "stockTransactions": [],
+  "stockMovements": [],
+  "notifications": [],
+  "prescriptions": [],
+  "emailLogs": [],
+  "shifts": [],
+  "cashMovements": [],
+  "reagentConsumptionLogs": [],
+  "coldChainLogs": [],
+  "auditLogs": [
+    {
+      "id": "aud-init-clean-prod",
+      "userId": "usr-admin-01",
+      "userName": "Chief Hospital Administrator",
+      "role": "Admin",
+      "action": "Create",
+      "table": "system_management",
+      "recordId": "clean_production_slate",
+      "description": "NEEPCO Hospital & Clinical Pharmacy database initialized with a 100% clean slate. Ready for initial inventory intake.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-27T08:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "clinicName": "NEEPCO Hospital & Clinical Pharmacy",
+    "clinicSecurityMode": true,
+    "sessionTimeoutMinutes": 30,
+    "requireStrongPasswords": true,
+    "lockoutThreshold": 5,
+    "lockoutDurationMinutes": 15,
+    "encryptionStandard": "AES-256 JWT + Bcrypt-12 Salting",
+    "updatedAt": "2026-08-27T08:00:00.000Z"
+  }
+}

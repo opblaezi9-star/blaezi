@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520">
+  <defs>
+    <!-- Clip path for the circular NEEPCO emblem -->
+    <clipPath id="neepcoCircleClip">
+      <circle cx="740" cy="260" r="195" />
+    </clipPath>
+
+    <!-- 5-pointed Star Symbol Definition -->
+    <g id="whiteStar">
+      <polygon
+        points="0,-12 3.5,-3.7 11.4,-3.7 5.1,1.1 7.5,8.8 0,3.9 -7.5,8.8 -5.1,1.1 -11.4,-3.7 -3.5,-3.7"
+        fill="#FFFFFF"
+      />
+    </g>
+  </defs>
+
+  <!-- Background container -->
+  <rect x="12" y="12" width="976" height="496" rx="60" fill="#FFFFFF" stroke="#004D8C" stroke-width="24" />
+
+  <!-- Vertical Divider Bar -->
+  <line x1="500" y1="12" x2="500" y2="508" stroke="#004D8C" stroke-width="16" />
+
+  <!-- LEFT SECTION: NTPC -->
+  <!-- Inner Rounded Border for NTPC -->
+  <rect x="42" y="42" width="416" height="436" rx="40" fill="none" stroke="#004D8C" stroke-width="16" />
+
+  <!-- NTPC Hindi Text: एनटीपीसी -->
+  <text
+    x="250"
+    y="220"
+    text-anchor="middle"
+    fill="#004D8C"
+    font-size="82"
+    font-weight="900"
+    font-family="'Noto Sans Devanagari', 'Arial Unicode MS', 'Devanagari MT', 'Mangal', sans-serif"
+    letter-spacing="1"
+  >
+    एनटीपीसी
+  </text>
+
+  <!-- NTPC English Text: NTPC -->
+  <text
+    x="250"
+    y="370"
+    text-anchor="middle"
+    fill="#004D8C"
+    font-size="98"
+    font-weight="900"
+    font-family="'Arial Black', 'Helvetica Neue', 'Impact', sans-serif"
+    letter-spacing="2"
+  >
+    NTPC
+  </text>
+
+  <!-- RIGHT SECTION: NEEPCO EMBLEM -->
+  <!-- Outer Red Ring / Border -->
+  <circle cx="740" cy="260" r="200" fill="none" stroke="#BA1C24" stroke-width="7" />
+
+  <!-- Clipped Circular Content -->
+  <g clip-path="url(#neepcoCircleClip)">
+    <!-- Red Background -->
+    <rect x="530" y="50" width="420" height="420" fill="#BA1C24" />
+
+    <!-- Top Lightning Bolt -->
+    <polygon
+      points="740,78 755,116 744,120 760,165 736,132 746,128"
+      fill="#FFFFFF"
+    />
+
+    <!-- Hindi Text: नीपको -->
+    <text
+      x="740"
+      y="218"
+      text-anchor="middle"
+      fill="#FFFFFF"
+      font-size="64"
+      font-weight="900"
+      font-family="'Noto Sans Devanagari', 'Arial Unicode MS', 'Devanagari MT', 'Mangal', sans-serif"
+      letter-spacing="1"
+    >
+      नीपको
+    </text>
+
+    <!-- Center White Horizontal Band -->
+    <rect x="530" y="234" width="420" height="66" fill="#FFFFFF" />
+
+    <!-- English Text in White Band: NEEPCO -->
+    <text
+      x="740"
+      y="282"
+      text-anchor="middle"
+      fill="#BA1C24"
+      font-size="44"
+      font-weight="900"
+      font-family="'Impact', 'Arial Black', 'Helvetica Neue', sans-serif"
+      letter-spacing="6"
+    >
+      NEEPCO
+    </text>
+
+    <!-- Bottom 8 Stars (Curved Arch Arrangement: 4 top, 3 middle, 1 bottom) -->
+    <!-- Row 1: 4 Stars -->
+    <use href="#whiteStar" x="642" y="342" transform="scale(1.05)" />
+    <use href="#whiteStar" x="702" y="340" transform="scale(1.05)" />
+    <use href="#whiteStar" x="778" y="340" transform="scale(1.05)" />
+    <use href="#whiteStar" x="838" y="342" transform="scale(1.05)" />
+
+    <!-- Row 2: 3 Stars -->
+    <use href="#whiteStar" x="672" y="375" transform="scale(1.05)" />
+    <use href="#whiteStar" x="740" y="375" transform="scale(1.05)" />
+    <use href="#whiteStar" x="808" y="375" transform="scale(1.05)" />
+
+    <!-- Row 3: 1 Center Bottom Star -->
+    <use href="#whiteStar" x="740" y="412" transform="scale(1.05)" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "SmartPharmacy - Hospital Pharmacy Management System",
+  "description": "A comprehensive role-based hospital pharmacy management system managing medicines, batches, inventory, purchase orders, multi-batch dispensing, returns, expiry monitoring, audit logs, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
